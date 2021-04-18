@@ -11,8 +11,7 @@ output:
     highlight: tango
 header-includes:
   - \usepackage{titling}
-  - \pretitle{\begin{center}
-    \includegraphics[width=5in,height=13in]{Images/figure1.jpg}}
+  - \pretitle{\begin{center} \includegraphics[width=5in,height=13in]{Images/figure1.jpg}\LARGE\\}
   - \posttitle{\end{center}}
   - \usepackage{fontawesome}
   - \usepackage[most]{tcolorbox}
@@ -27,3 +26,13 @@ header-includes:
 # New section from new branch
 
 \section{This is my new section using latex}
+
+\begin{itemize}
+\item This is the first
+\item This is the second
+\end{itemize}
+
+\begin{enumerate}
+\item This is the first
+\item This is the second
+\end{enumerate}
